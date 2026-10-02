@@ -1,0 +1,87 @@
+{
+  "system": {
+    "labels": [
+      "s",
+      "t",
+      "u"
+    ],
+    "coxeter_matrix": [
+      [
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        1,
+        3
+      ],
+      [
+        2,
+        3,
+        1
+      ]
+    ],
+    "field": {
+      "kind": "QQ"
+    },
+    "cartan": [
+      [
+        {
+          "q": "2"
+        },
+        {
+          "q": "-1"
+        },
+        {
+          "q": "0"
+        }
+      ],
+      [
+        {
+          "q": "-1"
+        },
+        {
+          "q": "2"
+        },
+        {
+          "q": "-1"
+        }
+      ],
+      [
+        {
+          "q": "0"
+        },
+        {
+          "q": "-1"
+        },
+        {
+          "q": "2"
+        }
+      ]
+    ]
+  },
+  "nodes": [
+    {
+      "kind": "Elias-Williamson graph",
+      "source": [
+        "s"
+      ],
+      "target": [
+        "s"
+      ],
+      "operations": [
+        {
+          "kind": "cup",
+          "position": 1,
+          "color": "s"
+        },
+        {
+          "kind": "cap",
+          "position": 0
+        }
+      ]
+    }
+  ],
+  "root": 0
+}
